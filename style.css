@@ -1,0 +1,231 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+
+background:url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+color:white;
+text-align:center;
+}
+/* HEADER */
+
+header{
+padding:40px 20px;
+background:transparent;
+}
+
+header h1{
+font-size:40px;
+}
+
+header p{
+opacity:0.9;
+}
+
+/* MAIN CONTENT */
+
+.content{
+padding:40px;
+}
+
+/* TITLES */
+
+h2{
+margin:20px 0;
+}
+
+.impact{
+margin-bottom:20px;
+}
+
+/* STATIONS */
+
+.stations{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+/* GLASS EFFECT CARD */
+
+.station{
+padding:25px;
+width:220px;
+
+background:rgba(255,255,255,0.1);
+
+backdrop-filter:blur(10px);
+
+border-radius:15px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* BATTERY */
+
+.battery{
+width:100%;
+height:10px;
+background:rgba(255,255,255,0.3);
+border-radius:5px;
+margin:10px 0;
+}
+
+.level{
+height:10px;
+border-radius:5px;
+}
+
+.high{
+width:90%;
+background:#2ecc71;
+}
+
+.medium{
+width:50%;
+background:#f1c40f;
+}
+
+.low{
+width:20%;
+background:#e74c3c;
+}
+
+/* BUTTON */
+
+button{
+background:#2ecc71;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:#27ae60;
+}
+.pricing{
+margin-top:70px;
+text-align:center;
+}
+
+.pricing-box{
+
+display:flex;
+justify-content:center;
+gap:40px;
+
+background:rgba(255,255,255,0.12);
+
+backdrop-filter:blur(12px);
+
+padding:30px;
+
+border-radius:20px;
+
+width:80%;
+margin:auto;
+
+box-shadow:0 10px 40px rgba(0,0,0,0.4);
+}
+
+.pricing-item{
+text-align:center;
+}
+
+.pricing-item h3{
+color:#2ecc71;
+margin-bottom:5px;
+}
+
+footer{
+margin-top:80px;
+padding:20px;
+background:rgba(0,0,0,0.4);
+backdrop-filter:blur(10px);
+color:white;
+}
+
+/* UNLOCK PAGE */
+
+.unlock-box{
+
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+
+padding:40px;
+border-radius:20px;
+
+width:350px;
+margin:60px auto;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+
+}
+
+/* MAP SECTION */
+
+#map-section{
+
+display:none;
+
+margin-top:40px;
+
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+
+padding:30px;
+
+border-radius:20px;
+
+width:80%;
+margin-left:auto;
+margin-right:auto;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+
+}
+
+#navigation-section{
+
+display:none;
+
+margin-top:30px;
+
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+
+padding:25px;
+
+border-radius:20px;
+
+width:60%;
+margin-left:auto;
+margin-right:auto;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+
+}
+
+input{
+
+padding:10px;
+border:none;
+border-radius:8px;
+width:250px;
+margin-top:10px;
+
+}

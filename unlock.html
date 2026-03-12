@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Unlock Bike</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🚲 CycleShare</h1>
+<p>QR Unlock</p>
+</header>
+
+<div class="unlock-box">
+
+<h2>Scan QR Code</h2>
+
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=CycleShareBike" alt="QR">
+
+<br><br>
+
+<button onclick="unlockBike()">Unlock Bike</button>
+
+<p id="message"></p>
+
+</div>
+
+
+<!-- MAP SECTION -->
+
+<div id="map-section">
+
+<h2>Your Ride Map</h2>
+
+<iframe 
+src="https://maps.google.com/maps?q=mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+width="80%"
+height="400"
+style="border:none;border-radius:15px;">
+</iframe>
+
+</div>
+
+<div id="navigation-section">
+
+<h2>Plan Your Ride</h2>
+
+<button onclick="getLocation()">Use My Location</button>
+
+<p id="location-text"></p>
+
+<input type="text" id="destination" placeholder="Enter destination">
+
+<br><br>
+
+<button onclick="showDestination()">Show Destination</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
